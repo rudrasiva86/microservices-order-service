@@ -1,4 +1,4 @@
-package com.rudrasiva86.orders.controller;
+package com.rudra.orders.controller;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.rudrasiva86.orders.model.Order;
+import com.rudra.orders.model.Order;
 
 @RestController
 @RequestMapping("/api/orders")

@@ -1,4 +1,4 @@
-package com.rudrasiva86.orders;
+package com.rudra.orders;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

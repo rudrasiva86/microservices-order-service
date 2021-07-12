@@ -1,4 +1,4 @@
-package com.rudrasiva86.orders.controller;
+package com.rudra.orders.controller;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.context.config.annotation.RefreshScope;

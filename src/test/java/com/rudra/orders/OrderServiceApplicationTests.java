@@ -1,4 +1,4 @@
-package com.rudrasiva86.orders;
+package com.rudra.orders;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

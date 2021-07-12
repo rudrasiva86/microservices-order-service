@@ -1,0 +1,25 @@
+spring:
+   application:
+      name: "microservices-order-service"
+   rabbitmq:
+      host: localhost
+      port: 5672
+      username: guest
+      password: guest
+
+# vault config
+   cloud:
+      vault:
+         host: "localhost"
+         port: "8200"
+         scheme: "http"
+         authentication: "TOKEN"
+         token: "s.zDBw1YNSATeVZxNQdj0NzdxQ"
+         application-name: "microservices-order-service"
+
+# For actuator
+management:
+   endpoints:
+      web:
+         exposure:
+            include: "*"

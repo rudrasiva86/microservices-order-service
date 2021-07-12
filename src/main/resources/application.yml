@@ -1,0 +1,15 @@
+
+# For consuming config from microservices-config
+spring:
+   config:
+      import: optional:configserver:http://localhost:8888/
+   profiles:
+      active: dev
+
+# For service registry
+server:
+   port: 0
+   
+eureka:
+   instance:
+      instance-id: ${spring.application.name}:${random.uuid}
